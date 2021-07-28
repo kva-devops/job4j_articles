@@ -14,7 +14,7 @@ public class Application {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Application.class.getSimpleName());
 
-    public static final int TARGET_COUNT = 1000_000;
+    public static final int TARGET_COUNT = 1000000;
 
     public static void main(String[] args) {
         Properties properties = loadProperties();

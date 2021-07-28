@@ -9,5 +9,5 @@ import java.lang.ref.WeakReference;
 import java.util.List;
 
 public interface ArticleGenerator {
-    SoftReference<Article> generate(List<Word> words);
+    Article generate(List<Word> words);
 }
